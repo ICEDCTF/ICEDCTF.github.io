@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ICED - CTF</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/flipclock.css">
+    <link rel="stylesheet" href="assets/css/bootstrap4-neon-glow.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+    
+  </head>
+  <body>
+    <div class="navbar-dark text-white">
+      <div class="container">
+        <nav class="navbar px-0 navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a href="index.html" class="pl-md-0 p-3 text-light">Home</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded" class="p-3 text-decoration-none text-light">Submit Flag</a>
+            </div>
+            <div class="nav-right">
+                <div class="countdown-timer" style="float:right"></div>
+                <div class="mr-4 p-3" style="float:right">ICED CTF</div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <h1 class="display-3" style="text-align: center"><b>Question ZONE!<span class="vim-caret">͏͏&nbsp;</span></b></h1>
+    <div class="lead mb-3 text-mono text-success"style="text-align: center">
+        Are you ready to solve the challenges?
+    </div>
+    <div class="lead mb-3 text-mono text-success"style="text-align: center">
+        Flag Format : ICED{.*}
+    </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="panel-group" id="accordion" is-disabled="true">
+                <div class="panel panel-default">
+                  <div class="container">
+                    <div class="panel-heading">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        <div class="panel-title">
+                          <h4>
+                            Challenge 1. Voice_Channel
+                            <p style="float:right">
+                              Crypto
+                            </p>
+                          </h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        好像是關於語音頻道的介紹...
+                        <br>
+                        <br>
+                        <div class="row justify-content-between">
+                          <div class="col-xl-4 align-self-center">
+                            <a href="Problems/Voice_Channel.txt" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a>
+                          </div>
+                          <div class="col-xl-4 align-self-center">
+                                <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint1" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
+                          </div>
+                          <div class="col-xl-4 align-self-center">
+                                <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="hint1" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            VC = Vigenère cipher 
+          </div>
+        </div></div></div>
+    <div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> <div class="panel-title"> <h4>Challenge 2. Cross_the_Fence<p style="float:right">Crypto</p> </h4> </div> </a> </div> <div id="collapse2" class="panel-collapse collapse in"> <div class="panel-body">柵欄？咩？<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/Cross_the_Fence.txt" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint2" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint2" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">a.k.a zig-zag</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> <div class="panel-title"> <h4>Challenge 3. Once_easy_and_twice_hard<p style="float:right">Crypto</p> </h4> </div> </a> </div> <div id="collapse3" class="panel-collapse collapse in"> <div class="panel-body">喔天這絕對不是Last Christmas 歌詞<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/Once_easy_and_twice_hard.rar" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint3" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">double encrypted</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"> <div class="panel-title"> <h4>Challenge 4. SAR<p style="float:right">Crypto</p> </h4> </div> </a> </div> <div id="collapse4" class="panel-collapse collapse in"> <div class="panel-body">喔天這絕對是新手寫的RSA編碼系統，看起來漏洞滿滿<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/SAR.txt" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint4" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint4" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">開根號你會，那開n次方根呢？</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"> <div class="panel-title"> <h4>Challenge 5. RAS<p style="float:right">Crypto</p> </h4> </div> </a> </div> <div id="collapse5" class="panel-collapse collapse in"> <div class="panel-body">鑒於SAR的失敗，有了這次的RAS<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/RAS.txt" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint5" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint5" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">Where can you find those factors?</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"> <div class="panel-title"> <h4>Challenge 6. ESREVER<p style="float:right">Reverse</p> </h4> </div> </a> </div> <div id="collapse6" class="panel-collapse collapse in"> <div class="panel-body">在一個風和日麗的下午，我拿到了這個exe檔案，你能幫我把密碼找出來嗎？<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/ESREVER.rar" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint6" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint6" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">Ghidra the dragon</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"> <div class="panel-title"> <h4>Challenge 7. Just_Simple_Py<p style="float:right">Crypto</p> </h4> </div> </a> </div> <div id="collapse7" class="panel-collapse collapse in"> <div class="panel-body">這是你在旅途中撿到的一個檔案，你能否把它的祕密還原呢？<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/Just_Simple_Py.py" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint7" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint7" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">XOR is safe, but not with two massages</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse8"> <div class="panel-title"> <h4>Challenge 8. UnknowFile<p style="float:right">Reverse</p> </h4> </div> </a> </div> <div id="collapse8" class="panel-collapse collapse in"> <div class="panel-body">幫我打開這張照片，如果它是<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/UnknowFile.png" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint8" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint8" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">I don't think this is an image though</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse9"> <div class="panel-title"> <h4>Challenge 9. whale<p style="float:right">Forensic</p> </h4> </div> </a> </div> <div id="collapse9" class="panel-collapse collapse in"> <div class="panel-body">一張出題者的形象照，似乎有什麼話想對你說<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/whale.png" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint9" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint9" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">Maybe there's something inside the picture file.</div></div></div></div></div></div></div></div></div></div></div>
+<div class="container"> <div class="row"> <div class="col-xl-12"> <div class="panel-group" id="accordion" is-disabled="true"> <div class="panel panel-default"> <div class="container"> <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse10"> <div class="panel-title"> <h4>Challenge 10. Anotherev<p style="float:right">Reverse</p> </h4> </div> </a> </div> <div id="collapse10" class="panel-collapse collapse in"> <div class="panel-body">請利用exe檔案找出密鑰後從python檔案中找到flag!!!<br> <br> <div class="row justify-content-between"> <div class="col-xl-4 align-self-center"> <a href="Problems/anotherev.rar" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Checkout challenge</a> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint10" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button> </div> <div class="col-xl-4 align-self-center"> <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal"  style="width:100%" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe4Jih7PAe-u6MKchlQnVUj6ZHfK4p4f7NgprSN47qiln3VjQ/alreadyresponded'"><span class="far fa-plane mr-2"></span>Submit</button> </div> </div></div></div></div></div></div></div></div> </div> </div> </div> </div><div class="modal fade" id="hint10" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered" role="document"> <div class="modal-content"> <div class="modal-body">What is __gcd?</div></div></div></div></div></div></div></div></div></div></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="assets/js/flipclock.min.js"></script>
+    <script>
+      var clock = new FlipClock($('.countdown-timer'), 10 ,{
+        countdown: true,
+        onEnd: function() {
+          console.log("hi");
+        }
+      });
+    </script>
+  </body>
+</html>
