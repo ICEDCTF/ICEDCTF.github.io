@@ -1,0 +1,19 @@
+    <h1>Hello~~~</h1>
+    <input class='prompttest' type="button" value="click">
+    <p class='show'></p>
+
+    <script>
+        var button = document.querySelector('.prompttest');
+        var showtxt = document.querySelector('.show');
+
+        function popup3(e) {
+            var guest = window.prompt('Enter password plz', 'password');
+            if (btoa(guest) == "SUNFRHtCQVNFNjRfaVNfYzBvbH0=") {
+                showtxt.innerHTML = '密碼正確'+guest
+            } else {
+                showtxt.innerHTML = '密碼錯誤'
+            }
+
+        }
+        button.addEventListener('click', popup3);
+    </script>
