@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login Page with Background Image Example</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div id="bg"></div>
+<form>
+<div class="form-field">
+<input type="text" id="Account" placeholder="Email / Username" required />
+</div>
+<div class="form-field">
+<input type="password" id="Passwd" placeholder="Password" required /> </div>
+<div class="form-field">
+<button  id="Button" class="btn" type="submit">Log in</button>
+</div>
+</form>
+<script>
+  const passwd=document.querySelector('#Passwd');
+  const account=document.querySelector('#Account');
+  const Button=document.querySelector('#Button');
+  const Outcome=document.querySelector('#Outcome');
+  function isEffective(url) {
+   try {
+     var xmlhttp;
+     if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
+       xmlhttp = new XMLHttpRequest();
+     } else { // code for IE6, IE5
+       xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+     }
+     xmlhttp.open("get", url, false);
+     xmlhttp.send();
+     if (xmlhttp.status == "404") {
+       return false;
+     } else {
+       return true;
+     }
+   } catch (e) {
+     return false;
+   }
+ }
+  Button.addEventListener('click',()=>{
+  if(isEffective("https://hackmd.io/@Whale120/"+Passwd.value)){
+        alert("password correct, move to next level~~");
+        Outcome.innerHTML="恭喜，密碼正確!!!"
+  }
+  else{
+        alert("Wrong password\nTry again bruh\n"+Passwd.value);
+        Outcome.innerHTML='密碼錯誤!!!';
+  }
+  })
+</script>
+</body>
+</html>
