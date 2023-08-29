@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple Login Form Example</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,700"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="login-form">
+<form>
+<h1>Login-Revenge</h1>
+<div class="content">
+<div class="input-field">
+<input style="text" id="Account" placeholder="Email" autocomplete="nope">
+</div>
+<div class="input-field">
+<input type="password" id="Passwd" placeholder="Password">
+</div>
+<h3><sapn id="Outcome"></sapn></h3>
+</div>
+<div class="action">
+<button>Register</button>
+<button id="Button">Sign in</button>
+</div>
+</form>
+</div>
+<script>
+  const passwd=document.querySelector('#Passwd');
+  const account=document.querySelector('#Account');
+  const Button=document.querySelector('#Button');
+  const Outcome=document.querySelector('#Outcome');
+  Button.addEventListener('click',()=>{
+  if(Account.value=="icedtea" && btoa(Passwd.value)=="QmFzZTY0SXNGdW4="){
+        alert("password correct, move to next level~~");
+        Outcome.innerHTML="恭喜，密碼正確!!!"
+  }
+  else{
+        alert("Wrong password\nTry again bruh");
+        Outcome.innerHTML='密碼錯誤，這次系統有安全點咯~';
+  }
+  })
+</script>
+</body>
+</html>
