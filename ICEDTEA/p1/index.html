@@ -16,7 +16,7 @@
 <input style="text" id="Account" placeholder="Email" autocomplete="nope">
 </div>
 <div class="input-field">
-<input type="password" id="Passwd" placeholder="Password">
+<input type="int" id="Passwd" placeholder="Password">
 </div>
 <h3><sapn id="Outcome"></sapn></h3>
 </div>
@@ -32,7 +32,7 @@
   const Button=document.querySelector('#Button');
   const Outcome=document.querySelector('#Outcome');
   Button.addEventListener('click',()=>{
-  if(Account.value=="icedtea" && Passwd.value=="teaicedtea123"){
+  if(Account.value=="icedtea" && Math.pow(Passwd.value, 7) % 1000 == 72){
         alert("password correct, move to next level~~");
         Outcome.innerHTML="恭喜，密碼正確!!!"
   }
